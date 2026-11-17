@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "filesystem-scoped": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-filesystem@1.0.2",
+        "./workspace-sandbox"
+      ],
+      "guardPolicy": {
+        "schemaTreeShaking": true,
+        "promptFirewall": "strict"
+      }
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-brave-search@1.0.1"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+      },
+      "guardPolicy": {
+        "schemaTreeShaking": true,
+        "promptFirewall": "strict"
+      }
+    }
+  }
+}

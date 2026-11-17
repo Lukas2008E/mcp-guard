@@ -1,0 +1,6 @@
+{
+  "name": "MCP-Guard — Open Source MCP Security & Token Inspector",
+  "description": "Zero-dependency static security analyzer, prompt-injection firewall, and context-window token profiler for Model Context Protocol (MCP) servers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
